@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #212529;
+}
+
+.purchase-links img {
+    width: auto;
+    height: 2rem;
+    margin: .5rem;
+}
+
+.guide-title {
+    display: flex;
+    justify-content: center;
+    color: #ff0055;
+    font-size: 2rem;
+}
+
+.hide {
+    visibility: hidden;
+}

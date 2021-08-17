@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <div>
+        <!-- CSS -->
+        <link rel="stylesheet" href="../../../../dist/tw-styles.css">
+        <link rel="stylesheet" href="ark-guide.css">
+        <link rel="stylesheet" href="../../../../node_modules/animate.css/animate.css">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </div>
+    <title>Ark Guide</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="navbar bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
+            <ul class="navlist flex gap-3 py-2 font-roboto text-lg">
+
+                <!-- Navigation Bar Links (Left Side) -->
+
+                <!-- "Home" -->
+                <li class="ml-5 mr-5 mt-1">
+                    <a href="../../../index.html"><svg xmlns="http://www.w3.org/2000/svg"
+                            class="hover:text-red-500 h-6 w-6 mt-1.5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+                        </svg></a>
+                </li>
+                <!-- "Buy" -->
+                <li class="purchases ml-5 group mt-1 mb-1">
+                    <a href="#">
+                        <span class="open group-hover:border-red-500 border-b-2 rounded-md p-1">Buy Ark</span>
+                    </a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon inline group-hover:text-red-500 h-6 w-6 mb-1"
+                        fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 10h18M7 15h1m4 0h1m-7 4h12a3 3 0 003-3V8a3 3 0 00-3-3H6a3 3 0 00-3 3v8a3 3 0 003 3z" />
+                    </svg>
+                </li>
+                <!-- Purchase links -->
+                <ul class="dropdown hide absolute left-52 purchase-links flex self-center animate__animated">
+                    <!-- Steam -->
+                    <li>
+                        <a href="https://store.steampowered.com/app/346110/ARK_Survival_Evolved/" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="../../../images/store-logos/steam-logo.png" alt="Steam Logo">
+                        </a>
+                    </li>
+                    <!-- Epic Games -->
+                    <li>
+                        <a href="https://www.epicgames.com/store/en-US/p/ark" target="_blank" rel="noopener noreferrer">
+                            <img src="../../../images/store-logos/epic-logo.png" alt="Epic Games Store Logo">
+                        </a>
+                    </li>
+                    <!-- PlayStation -->
+                    <li>
+                        <a href="https://store.playstation.com/en-us/product/UP0691-CUSA06676_00-ARKSEGAME0000000/"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="../../../images/store-logos/ps-logo.png" alt="PlayStation Logo">
+                        </a>
+                    </li>
+                    <!-- Microsoft Store -->
+                    <li>
+                        <a href="https://www.microsoft.com/en-us/p/ark-survival-evolved/bnblc4zgfnkb?activetab=pivot:overviewtab"
+                            target="_blank" rel="noopener noreferrer">
+                            <img src="../../../images/store-logos/ms-logo.png" alt="Microsoft Store">
+                        </a>
+                    </li>
+                    <!-- Nintendo -->
+                    <li>
+                        <a href="https://www.nintendo.com/games/detail/ark-survival-evolved-switch/" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="../../../images/store-logos/nin-logo.png" alt="Nintendo Store">
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Navigation Bar links (Right Side) -->
+
+                <nav class="ml-auto mr-2 flex">
+                    <!-- "Forum" -->
+                    <li class="group mr-5 mt-1">
+                        <a class="border-b-2 rounded-md group-hover:border-indigo-500 p-1" href="#">Forum</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:text-indigo-500 inline h-6 w-6 mb-1"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
+                        </svg>
+                    </li>
+                    <!-- "Create" -->
+                    <li class="mr-5 group mt-1">
+                        <a class="border-b-2 rounded-md group-hover:border-indigo-500 p-1" href="#">Create</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="inline group-hover:text-indigo-500 h-5 w-5 mb-1"
+                            viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd"
+                                d="M6 2a2 2 0 00-2 2v12a2 2 0 002 2h8a2 2 0 002-2V7.414A2 2 0 0015.414 6L12 2.586A2 2 0 0010.586 2H6zm5 6a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V8z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </li>
+                    <!-- "Login" -->
+                    <li class="group mt-1">
+                        <a class="border-b-2 rounded-md group-hover:border-indigo-500 p-1" href="#">Login</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="group-hover:text-indigo-500 inline h-6 w-6 mb-1"
+                            fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1" />
+                        </svg>
+                    </li>
+                </nav>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Cards Grid -->
+    <div class="grid grid-cols-4">
+        <div class="col-span-1">
+            <div class="text-black bg-white h-5/6 rounded-r-md my-12 mr-5">
+                <h2 class="text-center font-medium font-orbitron mb-2">
+                    Temporary Title</h2>
+                <p class="text-black border-t-2 border-b-2 border-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consectetur cumque,
+                    autem enim commodi quo ex ipsam excepturi neque error culpa deleniti, voluptatibus totam amet facere
+                    temporibus, magnam praesentium voluptatem.</p>
+            </div>
+        </div>
+        <!-- Guide Cards -->
+        <div class="grid lg:grid-cols-3 col-span-2 gap-6 mt-20">
+            <!-- Dinopedia Card -->
+            <div class="wrapper shadow-md">
+                <span class="card-title">Dinopedia</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/dinopedia.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>3 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Caves Card -->
+            <div class="wrapper">
+                <span class="card-title">Caves</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/caves.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>3 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Resources Card -->
+            <div class="wrapper">
+                <span class="card-title">Finding Resources</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/resources.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>1 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Buiding Card -->
+            <div class="wrapper">
+                <span class="card-title">Building</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/building.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>1 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Farming Card -->
+            <div class="wrapper">
+                <span class="card-title">Farming</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/farming.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>1 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Breeding Card -->
+            <div class="wrapper">
+                <span class="card-title">Breeding</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/breeding.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>2 Guides</span>
+                    </div>
+                </div>
+            </div>
+            <!-- Mods Card -->
+            <div class="wrapper">
+                <span class="card-title">Modding</span>
+                <div class="card">
+                    <img class="card-img" src="./images/guides/modding.jpg" alt="#">
+                    <div class="m-4">
+                        <span class="font-semibold">Description:</span>
+                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                    </div>
+                    <div class="badge">
+                        <span>4 Guides</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <p class="mt-6 text-blue-700 font-roboto text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </div>
+
+    <script src="../ark/ark.js"></script>
+
+</body>
+
+</html>

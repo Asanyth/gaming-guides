@@ -1,0 +1,19 @@
+{
+  "name": "gaming-guides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "autoprefixer": "^10.3.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build-tw": "npx tailwindcss -i ./src/tw-edit-styles.css -o ./dist/tw-styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

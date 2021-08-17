@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply bg-indigo-800 rounded-md font-roboto overflow-hidden relative;
+}
+
+.card-title {
+    @apply font-semibold flex justify-center font-roboto text-white;
+}
+
+.card-img {
+    @apply w-full h-48 sm:h-48 object-cover;
+}
+
+.badge {
+    @apply bg-indigo-100 text-gray-600 font-orbitron text-sm font-bold rounded-full absolute px-2 py-1 top-0 mt-2 right-2 border-1 border-gray-900;
+}
