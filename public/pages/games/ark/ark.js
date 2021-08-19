@@ -1,14 +1,13 @@
-var purchases = document.querySelector(".purchases");
 document.documentElement.style.setProperty('--animate-duration', '0.5s');
 
-function toggleClass(e, toggledClass) {
+const toggleClass = (e, toggledClass) => {
     e.classList.toggle(toggledClass);
 }
 
-function toggleHiddenStores() {
-    var dropdown = document.querySelector(".dropdown");
-    var open = document.querySelector(".open")
-    var icon = document.querySelector(".icon")
+const toggleHiddenStores = () => {
+    let dropdown = document.querySelector(".dropdown");
+    let open = document.querySelector(".open")
+    let icon = document.querySelector(".icon")
     toggleClass(dropdown, "hide");
     toggleClass(dropdown, "rounded-md");
     toggleClass(dropdown, "animate__FadeIn");
@@ -18,4 +17,5 @@ function toggleHiddenStores() {
     toggleClass(icon, "text-red-500");
 }
 
+const purchases = document.querySelector(".purchases");
 purchases.addEventListener("click", toggleHiddenStores);
