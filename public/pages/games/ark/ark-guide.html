@@ -9,7 +9,7 @@
         <!-- CSS -->
         <link rel="stylesheet" href="../../../../dist/tw-styles.css">
         <link rel="stylesheet" href="ark-guide.css">
-        <link rel="stylesheet" href="../../../../node_modules/animate.css/animate.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </div>
@@ -17,6 +17,7 @@
 </head>
 
 <body>
+
     <header>
         <!-- Navigation Bar -->
         <nav class="navbar bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
@@ -83,7 +84,6 @@
                 </ul>
 
                 <!-- Navigation Bar links (Right Side) -->
-
                 <nav class="ml-auto mr-2 flex">
                     <!-- "Forum" -->
                     <li class="group mr-5 mt-1">
@@ -120,25 +120,27 @@
 
     <!-- Cards Grid -->
     <div class="grid grid-cols-4">
-        <div class="col-span-1">
-            <div class="text-black bg-white h-5/6 rounded-r-md my-12 mr-5">
+        <!-- Directory -->
+        <div class="mx-5 my-12">
+            <div class="text-black bg-white h-5/6 rounded-md pb-32">
                 <h2 class="text-center font-medium font-orbitron mb-2">
-                    Temporary Title</h2>
-                <p class="text-black border-t-2 border-b-2 border-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea consectetur cumque,
-                    autem enim commodi quo ex ipsam excepturi neque error culpa deleniti, voluptatibus totam amet facere
-                    temporibus, magnam praesentium voluptatem.</p>
+                    Directory</h2>
+                <button
+                    class="border-2 border-indigo-500 hover:bg-indigo-500 hover:text-white rounded-md w-20 h-7 font-roboto">Testing</button>
+                <button></button>
             </div>
         </div>
         <!-- Guide Cards -->
-        <div class="grid lg:grid-cols-3 col-span-2 gap-6 mt-20">
+        <div class="grid col-span-3 grid-cols-2 gap-6 mt-20">
             <!-- Dinopedia Card -->
-            <div class="wrapper shadow-md">
+            <div class="wrapper">
                 <span class="card-title">Dinopedia</span>
-                <div class="card">
+                <div class="card pb-6 border-transparent border-2 hover:border-white transform duration-75">
                     <img class="card-img" src="./images/guides/dinopedia.jpg" alt="#">
                     <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
+                        <h2 class="font-semibold text-white">Description:</h2>
+                        <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Lorem</p>
                     </div>
                     <div class="badge">
                         <span>3 Guides</span>

@@ -10,7 +10,7 @@ const toggleHiddenStores = () => {
     let icon = document.querySelector(".icon")
     toggleClass(dropdown, "hide");
     toggleClass(dropdown, "rounded-md");
-    toggleClass(dropdown, "animate__FadeIn");
+    toggleClass(dropdown, "animate__fadeInLeft");
     toggleClass(open, "group-hover:border-red-500");
     toggleClass(open, "border-red-500");
     toggleClass(icon, "group-hover:text-red-500");
