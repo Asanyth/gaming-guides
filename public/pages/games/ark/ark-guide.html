@@ -20,7 +20,7 @@
 
     <header>
         <!-- Navigation Bar -->
-        <nav class="navbar bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
+        <nav class="navbar bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white mb-10">
             <ul class="navlist flex gap-3 py-2 font-roboto text-lg">
 
                 <!-- Navigation Bar Links (Left Side) -->
@@ -118,117 +118,121 @@
         </nav>
     </header>
 
-    <!-- Cards Grid -->
-    <div class="grid grid-cols-4">
+    <!-- Guide Cards -->
+    <div
+        class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 gap-10">
         <!-- Directory -->
-        <div class="mx-5 my-12">
-            <div class="text-black bg-white h-5/6 rounded-md pb-32">
+        <div class="mb-12 row-start-1 row-span-3">
+            <div class="text-black bg-white h-40 rounded-md pb-32 md:h-full">
                 <h2 class="text-center font-medium font-orbitron mb-2">
                     Directory</h2>
                 <button
-                    class="border-2 border-indigo-500 hover:bg-indigo-500 hover:text-white rounded-md w-20 h-7 font-roboto">Testing</button>
+                    class="ml-5 border-2 border-indigo-500 hover:bg-indigo-500 hover:text-white rounded-md w-20 h-7 font-roboto">Testing</button>
                 <button></button>
             </div>
         </div>
-        <!-- Guide Cards -->
-        <div class="grid col-span-3 grid-cols-2 gap-6 mt-20">
-            <!-- Dinopedia Card -->
-            <div class="wrapper">
-                <span class="card-title">Dinopedia</span>
-                <div class="card pb-6 border-transparent border-2 hover:border-white transform duration-75">
-                    <img class="card-img" src="./images/guides/dinopedia.jpg" alt="#">
-                    <div class="m-4">
-                        <h2 class="font-semibold text-white">Description:</h2>
-                        <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                            Lorem</p>
-                    </div>
-                    <div class="badge">
-                        <span>3 Guides</span>
-                    </div>
+        <!-- Dinopedia Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Dinopedia</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/dinopedia.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>3 Guides</span>
                 </div>
             </div>
-            <!-- Caves Card -->
-            <div class="wrapper">
-                <span class="card-title">Caves</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/caves.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>3 Guides</span>
-                    </div>
+        </div>
+        <!-- Caves Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Caves</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/caves.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>3 Guides</span>
                 </div>
             </div>
-            <!-- Resources Card -->
-            <div class="wrapper">
-                <span class="card-title">Finding Resources</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/resources.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>1 Guides</span>
-                    </div>
+        </div>
+        <!-- Resources Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Finding Resources</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/resources.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>1 Guides</span>
                 </div>
             </div>
-            <!-- Buiding Card -->
-            <div class="wrapper">
-                <span class="card-title">Building</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/building.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>1 Guides</span>
-                    </div>
+        </div>
+        <!-- Buiding Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Building</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/building.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>1 Guides</span>
                 </div>
             </div>
-            <!-- Farming Card -->
-            <div class="wrapper">
-                <span class="card-title">Farming</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/farming.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>1 Guides</span>
-                    </div>
+        </div>
+        <!-- Farming Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Farming</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/farming.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>1 Guides</span>
                 </div>
             </div>
-            <!-- Breeding Card -->
-            <div class="wrapper">
-                <span class="card-title">Breeding</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/breeding.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>2 Guides</span>
-                    </div>
+        </div>
+        <!-- Breeding Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Breeding</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/breeding.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>2 Guides</span>
                 </div>
             </div>
-            <!-- Mods Card -->
-            <div class="wrapper">
-                <span class="card-title">Modding</span>
-                <div class="card">
-                    <img class="card-img" src="./images/guides/modding.jpg" alt="#">
-                    <div class="m-4">
-                        <span class="font-semibold">Description:</span>
-                        <span class="block text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                    </div>
-                    <div class="badge">
-                        <span>4 Guides</span>
-                    </div>
+        </div>
+        <!-- Mods Card -->
+        <div class="wrapper justify-self-center">
+            <span class="card-title">Modding</span>
+            <div class="card">
+                <img class="card-img" src="./images/guides/modding.jpg" alt="#">
+                <div class="m-4">
+                    <h2 class="font-semibold text-white">Description:</h2>
+                    <p class="block text-sm text-gray-200">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Lorem</p>
+                </div>
+                <div class="badge">
+                    <span>4 Guides</span>
                 </div>
             </div>
         </div>

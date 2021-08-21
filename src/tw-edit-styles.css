@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 .card {
-    @apply bg-indigo-800 rounded-md font-roboto overflow-hidden relative;
+    @apply bg-indigo-800 rounded-md font-roboto overflow-hidden pb-6 border-transparent border-2 hover:border-white transform duration-75;
 }
 
 .card-title {
